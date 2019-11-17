@@ -1,0 +1,19 @@
+BEGIN {
+  print "Docker Report"
+  print "---------------------"
+
+# FS=  # File separator
+# RS=  # Record separator
+  OFS=","        # Output file separator
+# ORS=        # Output record separator
+}
+
+
+/^9|5/ {print NR $1 " is ID for " $3}
+
+# Square numbers
+# {for(i=0;i<6;i++) print $1 " square of " $1*i;}
+
+END {
+  print "Copyright 2019"
+}
