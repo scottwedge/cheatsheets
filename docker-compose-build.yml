@@ -1,0 +1,16 @@
+# YAML file template for learning Docker-Compose files
+# The name 'docker-compose.yml' is not required.  As long as 
+# file name is run with -f when container is initialized.
+# Xavier Collantes (github.com/xcollantes)
+#  
+version: "3.7"        # v1 by default, use at least v2
+  my_webapp:
+    build:
+      dockerfile: nginx.Dockerfile
+      context: .      # Build output in current directory
+    image: my_nginx-custom
+    ports:
+      - 80:80
+    
+# Source: https://docs.docker.com/compose/compose-file/
+     
