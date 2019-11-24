@@ -1,9 +1,9 @@
-#SQL Review Sheet
+# SQL Review Sheet
 By Xavier Collantes (xcollantes)
 
 [Basics](#Basics)
-  - [Data Definition Language](#Data Definition Language)
-  - [Data Manipulation Language](#Data Manipulation Language)
+  - [Data Definition Language](#Data-Definition-Language)
+  - [Data Manipulation Language]('#Data Manipulation Language')
   - [Data Query Language](#Data Query Language)
 
 ## Basics
