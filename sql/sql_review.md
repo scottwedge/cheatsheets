@@ -1,7 +1,10 @@
 #SQL Review Sheet
-By Xavier Collantes
+By Xavier Collantes (xcollantes)
 
-## Data Definition Language
+[Basics](#Basics)
+
+## Basics
+### Data Definition Language
 Build, change, remove database schema objects: database, index, views.
 
 
@@ -46,10 +49,27 @@ DROP <column_name>;
 ```
 
 
-## Data Manipulation Language
+### Manipulation Language
+Insert, change, remove data within the schema.
 
 
-## Data Query Language
+Put data into the table.
+```
+// Implicit position, place matters
+INSERT INTO <table_name> VALUES (field_value1, field_value2, field_value3);
+
+// Explicit position, column name matched with field value
+INSERT INTO <table_name> (column1, column2, column3) VALUES (field_value1, field_value2, field_value3);
+```
+
+```
+UPDATE
+```
+
+```
+DELETE
+```
+### Data Query Language
 Getting data from database.
 ```
 SELECT
@@ -59,7 +79,7 @@ SELECT
 
 
 
-## Data Control Language
+### Data Control Language
 Permissions management.
 ```
 GRANT
@@ -69,5 +89,5 @@ GRANT
 REVOKE
 ```
 
-
+### Data Transaction Language
 
