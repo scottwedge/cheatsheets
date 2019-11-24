@@ -2,6 +2,9 @@
 By Xavier Collantes (xcollantes)
 
 [Basics](#Basics)
+  - [Data Definition Language](#Data Definition Language)
+  - [Data Manipulation Language](#Data Manipulation Language)
+  - [Data Query Language](#Data Query Language)
 
 ## Basics
 ### Data Definition Language
@@ -49,7 +52,7 @@ DROP <column_name>;
 ```
 
 
-### Manipulation Language
+### Data Manipulation Language
 Insert, change, remove data within the schema.
 
 
