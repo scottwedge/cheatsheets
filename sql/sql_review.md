@@ -1,8 +1,8 @@
-# SQL Review Sheet
+#SQL Review Sheet
 By Xavier Collantes
 
 ## Data Definition Language
-Create schema objects: database, index, views.
+Build, change, remove database schema objects: database, index, views.
 
 
 `CREATE DATABASE <database_name>;`
@@ -14,20 +14,60 @@ CREATE TABLE <table_name> (
 );
 ```
 
+Completely destroy database table.
+
 ```
 DROP TABLE <table_name>;
 ```
 
+Nuke entire database.
+
 ```
 DROP DATABASE <database_name>;
 ```
+
+Add new column to table.
+```
+ALTER TABLE <table_name>
+ADD (<column_name> <data_type>,
+     <column_name> <data_type>);
+```
+
+Change a column.
+```
+ALTER TABLE <table_name>
+MODIFY <column_name> <data_type>;
+```
+
+Remove column in table.
+```
+ALTER TABLE <table_name>
+DROP <column_name>;
+```
+
+
 ## Data Manipulation Language
 
-## Data Creation Language
 
+## Data Query Language
+Getting data from database.
+```
+SELECT
+```
 
 
 
 
 
 ## Data Control Language
+Permissions management.
+```
+GRANT
+```
+
+```
+REVOKE
+```
+
+
+
