@@ -29,3 +29,39 @@ characters.
 
 
 (https://stackoverflow.com/questions/32911336/what-is-the-difference-between-json-dumps-and-json-load)
+
+
+
+## GET vs. POST
+GET sends data through parameters in the url in order to retrieve data.
+
+POST sends data through an object in order to create or update data.
+
+
+__Usage:__
+
+GET pulls data straight from source.
+
+POST sends data but is manipulated by some logic layer upon request arrival at
+server.
+
+__Security:__
+
+GET is less secure since the string itself can be altered.  But this will only
+deter the casual user.  POSTs can still be altered.  At least POST doesn't store
+values in plain text.
+
+### GET
+- Can be cached
+- Can be bookmarked (by saving the whole url)
+- Remain in browsing history
+- Only ASCII permitted
+- Limit of 2048 characters in url
+
+
+## POST
+- No restrictions on data length
+- Resubmitting can provide different results
+
+
+(https://security.stackexchange.com/questions/33837/get-vs-post-which-is-more-secure)
