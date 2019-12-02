@@ -151,7 +151,10 @@ SET <column_name> = CASE
 
 
 
+## JOINS
 
+
+(https://www.diffen.com/difference/Inner_Join_vs_Outer_Join)
 
 
 
