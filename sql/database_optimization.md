@@ -12,18 +12,22 @@ There are two types of Primary Indexing:
 
 #### Dense Index
 ![Dense](https://www.guru99.com/images/1/070119_0833_IndexinginD2.png)
+
 Each key corresponds to another key in the target table.  The pointer is a one to one relationship.  
 
 In this case, the index is large but has more tracking.
 
 #### Sparse Index
 ![Sparse](https://www.guru99.com/images/1/070119_0833_IndexinginD3.png)
+
 Each key corresponds to a block of records in target table.  A range of index keys store the same address.
 
 ### Secondary Indexing
 
+(https://www.guru99.com/indexing-in-database.html#1)
 
-**Syntax:**
+
+### Syntax
 
 `CREATE INDEX <index_name> ON <table_name> (field1, field2);`
 
