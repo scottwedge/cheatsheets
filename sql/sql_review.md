@@ -155,7 +155,6 @@ SET <column_name> = CASE
 
 
 (https://www.diffen.com/difference/Inner_Join_vs_Outer_Join)
-
-
+(https://teamsql.io/blog/?p=923)
 
 
