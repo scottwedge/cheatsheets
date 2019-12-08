@@ -6,7 +6,7 @@ Notes on code and practices.
 
 Mock testing makes tests faster and less computationally expensive since the object mocked is a non-functional version of the real object, i.e. mock a database so you don't have to build one yourself but still produce behavior of a database.  
 
-### Decorators
+### @mock.patch vs @mock.patch.object
 `@mock.patch` To use a function, class, object as a mock object.
 
 `@mock.patch.object` Same as above but you have to import the object whereas the previous decorator can call any object.  
@@ -35,4 +35,8 @@ def testCalculate(self, mock_calculate):
   mock_calculate()    # Returns mock
 ```
 
+### Mock() vs mock.patch
+
+
+### Mock() vs MagicMock()
 (https://medium.com/python-pandemonium/python-mocking-you-are-a-tricksy-beast-6c4a1f8d19b2)
