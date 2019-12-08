@@ -36,7 +36,7 @@ def testCalculate(self, mock_calculate):
 ```
 
 ### Mock() vs mock.patch
-When using `mock.Mock()`, the target mock object will be overridden as a mock object.  \s\s
+When using `mock.Mock()`, the target mock object will be overridden as a mock object. 
 Example: `requests = mock.Mock()` creates a mock object out of the `requests` library.  Any requests calls will now be mocks.
 
 
