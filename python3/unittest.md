@@ -39,4 +39,7 @@ def testCalculate(self, mock_calculate):
 
 
 ### Mock() vs MagicMock()
-(https://medium.com/python-pandemonium/python-mocking-you-are-a-tricksy-beast-6c4a1f8d19b2)
+
+
+[Medium - Python Mocking](https://medium.com/python-pandemonium/python-mocking-you-are-a-tricksy-beast-6c4a1f8d19b2)
+[Test Doubles, Fakes, Mocks, and Stubs](https://blog.pragmatists.com/test-doubles-fakes-mocks-and-stubs-1a7491dfa3da)
