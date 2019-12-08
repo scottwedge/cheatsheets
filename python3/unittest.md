@@ -21,4 +21,18 @@ def testAMethod(self, mock_function):
   mock_function()
 ```
 
+`@mock.patch` will replace the calling of the original function.  Calling either will reference the same instance of mock object.
+
+Example:
+
+```
+def calculate():
+  # Code
+
+@mock.patch.object(class, 'calculate')
+def testCalculate(self, mock_calculate):
+  calculate()         # Returns mock
+  mock_calculate()    # Returns mock
+```
+
 (https://medium.com/python-pandemonium/python-mocking-you-are-a-tricksy-beast-6c4a1f8d19b2)
