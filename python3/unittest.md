@@ -7,8 +7,7 @@ Notes on code and practices.
 Mock testing makes tests faster and less computationally expensive since the object mocked is a non-functional version of the real object, i.e. mock a database so you don't have to build one yourself but still produce behavior of a database.  
 
 ### @mock.patch vs @mock.patch.object
-`@mock.patch` To use a function, class, object as a mock object.
-
+`@mock.patch` To use a function, class, object as a mock object. <br>
 `@mock.patch.object` Same as above but you have to import the object whereas the previous decorator can call any object.  
 
 Example: `@mock.patch('class.method')` as opposed to `@mock.patch.object(class, 'method')`
@@ -23,8 +22,7 @@ def testAMethod(self, mock_function):
 
 `@mock.patch` will replace the calling of the original function.  Calling either will reference the same instance of mock object.
 
-Example:
-
+Example: <br>
 ```
 def calculate():
   # Code
